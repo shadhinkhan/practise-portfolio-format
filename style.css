@@ -1,0 +1,118 @@
+body {
+    font-family: 'Alkalami', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.baba {
+    color: rgb(17, 233, 17);
+}
+
+.sagotom {
+    color: maroon;
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding: 20px;
+
+    background-repeat: no-repeat;
+}
+
+.half-width img {
+    width: 80%;
+
+}
+
+
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(7, 163, 7), darkgreen);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: ghostwhite;
+    font: weight 700px;
+}
+
+.sections {
+    margin-bottom: 30px;
+}
+
+/* .dreambig {
+    width: 50%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.dreambig img {
+    width: 100%;
+} */
+.read {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(134, 163, 7), rgb(100, 77, 0));
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: ghostwhite;
+    font: weight 700px;
+}
+
+.dreambig {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px greenyellow;
+
+
+}
+
+.lastpart {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#border1 {
+    border-left: 5px solid;
+    border-image: linear-gradient(yellow, orange);
+    border-image-slice: 1;
+
+}
+
+#border2 {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, darkgreen);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    color: orange;
+}
